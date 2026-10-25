@@ -11,3 +11,8 @@ Darktide mods by QIangIQ. Each mod is a separate zip in [`mods/`](mods).
 ## Notes
 - `QIangIQsAnotherScoreboard` is based on AnotherScoreboard and `QIangIQsMultiBind` is based on MultiBind by Seph. Credit to their original authors.
 - The `*Prime`, `QIangIQsEmber` and `QIangIQsEmberWF` mods contain character models and textures converted from other games. They belong to their respective owners and are shared for personal use only.
+
+## Recently added
+- Weapons: `QIangIQsCrossbow`, `QIangIQsFlamerPistol`, `QIangIQsMeltagun`, `QIangIQsSwordShield`, `QIangIQsChainLaspistol`, `QIangIQsPowerAxe`.
+- Utilities: `QIangIQsSpillway`, `QIangIQsTalentHeat`, `QIangIQsInstantCharacterChange`. `QIangIQsEnemyBeams` was updated.
+- The new weapons are fresh and may still have bugs; report them in the Discord.
