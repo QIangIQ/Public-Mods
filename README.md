@@ -13,6 +13,9 @@ Darktide mods by QIangIQ. Each mod is a separate zip in [`mods/`](mods).
 - The `*Prime`, `QIangIQsEmber` and `QIangIQsEmberWF` mods contain character models and textures converted from other games. They belong to their respective owners and are shared for personal use only.
 
 ## Recently added
+- `QIangIQsNovitiate`: a Zealot-variant "class" with its own talent tree and abilities (press F8 on a Zealot to mark it as a Novitiate). Needs `realms_loadout` for its gear screen. The optional Sister Lacrima model is not included (too large); the default Dauntless look works without it.
+- `QIangIQsJavelin` (throwing spear) and `QIangIQsSprayerOgryn` (enemy used by The Bell map). `QIangIQsCrossbow`, `QIangIQsFlamerPistol`, `QIangIQsAnotherScoreboard` and `QIangIQsSyncChannel` were updated.
+- Mods with custom models (Novitiate, Javelin, Crossbow, Flamer Pistol) need Custom Assets: run its `CUSTOM_ASSETS_PATCH.bat` with the game closed after installing.
 - Weapons: `QIangIQsCrossbow`, `QIangIQsFlamerPistol`, `QIangIQsMeltagun`, `QIangIQsSwordShield`, `QIangIQsChainLaspistol`, `QIangIQsPowerAxe`.
 - Utilities: `QIangIQsSpillway`, `QIangIQsTalentHeat`, `QIangIQsInstantCharacterChange`. `QIangIQsEnemyBeams` was updated.
 - The new weapons are fresh and may still have bugs; report them in the Discord.
