@@ -16,3 +16,5 @@ SHA-256 of the joined zip: `ea0466d1b2d836526a9f0e4529a3aafa6a2ea357df32d5552050
 **Needs:** Darktide Mod Framework, Custom Assets, SoloPlay. For co-op through Realms: Realms, QIangIQsSyncChannel and Vox Manifold. Optional: QIangIQsSprayerOgryn (boss).
 
 **Play:** start "The Bell (Vermintide 2) - QIangIQ" from the SoloPlay mission list. Blow the brick seal with the breach charge, follow the path to the bell, break its three chain holds, then escape.
+
+**Hotfix 1 (Havoc crash at mission start):** after installing, also extract `QIangIQsBell-0.2.16-hotfix1.zip` into `mods` and overwrite. It replaces one script so Havoc mutators (such as the twins) no longer crash the Bell at start.
