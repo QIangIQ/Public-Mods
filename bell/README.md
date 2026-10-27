@@ -17,4 +17,4 @@ SHA-256 of the joined zip: `ea0466d1b2d836526a9f0e4529a3aafa6a2ea357df32d5552050
 
 **Play:** start "The Bell (Vermintide 2) - QIangIQ" from the SoloPlay mission list. Blow the brick seal with the breach charge, follow the path to the bell, break its three chain holds, then escape.
 
-**Hotfix 3 (crash fixes):** after installing, also extract `QIangIQsBell-0.2.16-hotfix3.zip` into `mods` and overwrite. It replaces one script: Havoc mutators (such as the twins) no longer crash the Bell at start, renegade snipers no longer crash it mid-mission, and players joining someone else's Bell run no longer crash on the breach charge.
+**Hotfix 4 (crash fixes):** after installing, also extract `QIangIQsBell-0.2.16-hotfix4.zip` into `mods` and overwrite. It replaces one script: Havoc mutators (such as the twins) no longer crash the Bell at start, renegade snipers no longer crash it mid-mission, players joining someone else's Bell run no longer crash on the breach charge, and hitting a pickup lying on the ground with a melee swing no longer crashes.
