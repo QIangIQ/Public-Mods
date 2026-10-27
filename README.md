@@ -8,6 +8,26 @@ Darktide mods by QIangIQ. Each mod is a separate zip in [`mods/`](mods).
 3. Add the mod name on its own line to `mods\mod_load_order.txt`, below `dmf`.
    Mods that depend on others (for example anything using `QIangIQsSyncChannel`) must come after them.
 
+## Load order
+DMF loads `mod_load_order.txt` from top to bottom; the dependencies written in a `.mod` file do not reorder anything. Put each mod below the ones it uses. Recommended fragment (everything marked optional can be left out):
+
+```
+dmf
+CustomAssets                # optional: only for mods with custom models/icons
+QIangIQsSyncChannel         # needed by the mods that sync between players
+QIangIQsLegacyTalents       # optional for Novitiate
+QIangIQsMartyrdom           # optional for Novitiate (do not run both trees at once)
+QIangIQsScumHook            # optional for Novitiate (gives the Chain Hook its hook head model)
+QIangIQsNovitiate
+QIangIQsJavelin
+QIangIQsSwordShield
+QIangIQsBell                # below CustomAssets and below SoloPlay if you use it
+```
+
+- `QIangIQsNovitiate` works on its own. LegacyTalents, Martyrdom, ScumHook and CustomAssets are optional lookups; without them the Novitiate just skips the matching extra (no legacy-tree detection, the chain keeps its own spear head, no Martyrdom conflict warning). `realms_loadout` is only needed for its gear screen.
+- `QIangIQsJavelin` and `QIangIQsSwordShield` do not need `SimpleAudio` or any other helper mod; Custom Assets only adds the models and icons.
+- If you see `AnimationStateMachine ... does not exist` after pressing F8 or using the Chain Hook, re-download the current Novitiate zip, run `CUSTOM_ASSETS_PATCH.bat` with the game closed, and check the order above.
+
 ## Notes
 - `QIangIQsAnotherScoreboard` is based on AnotherScoreboard and `QIangIQsMultiBind` is based on MultiBind by Seph. Credit to their original authors.
 - The `*Prime`, `QIangIQsEmber` and `QIangIQsEmberWF` mods contain character models and textures converted from other games. They belong to their respective owners and are shared for personal use only.
