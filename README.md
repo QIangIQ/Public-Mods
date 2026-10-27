@@ -28,6 +28,9 @@ QIangIQsBell                # below CustomAssets and below SoloPlay if you use i
 - `QIangIQsJavelin` and `QIangIQsSwordShield` do not need `SimpleAudio` or any other helper mod; Custom Assets only adds the models and icons.
 - If you see `AnimationStateMachine ... does not exist` after pressing F8 or using the Chain Hook, re-download the current Novitiate zip, run `CUSTOM_ASSETS_PATCH.bat` with the game closed, and check the order above.
 
+## Single-file fixes (2026-10-27)
+Loose copies of the `.lua` files that changed, under [`hotfix/`](hotfix). Each one goes to the same relative path under `Warhammer 40,000 DARKTIDE\mods\` (the folder inside `hotfix/` is the mod folder). Close the game first. No Custom Assets patcher run is needed for these.
+
 ## Notes
 - `QIangIQsAnotherScoreboard` is based on AnotherScoreboard and `QIangIQsMultiBind` is based on MultiBind by Seph. Credit to their original authors.
 - The `*Prime`, `QIangIQsEmber` and `QIangIQsEmberWF` mods contain character models and textures converted from other games. They belong to their respective owners and are shared for personal use only.
