@@ -37,6 +37,9 @@ Loose copies of the `.lua` files that changed, under [`hotfix/`](hotfix). Each o
 
 ## Recently added
 **2026-11-04**
+- New custom weapons: `QIangIQsFingerGun`, the `QIangIQsMMJ*` weapons (Arcade Pistol, Bat, Chain Pistol, Double Barrel, Flame Katana, Ice Katana, Katana, Magic Glove, Minigun, Pistol, Plasma Gun, Rail Gun, Rifle, Shotgun, Silenced Uzi, Sniper, Uzi) and the `QIangIQsBoltgun*` weapons (Bolter, Chainsword, Flamer, Plasma Pistol, Power Sword). `QIangIQsTaunts` adds taunts. `QIangIQsHorizonMaulShields` adds maul and shield skins.
+- These contain art and sound from Mullet Mad Jack, Warhammer 40,000: Boltgun and Horizon Walker. They belong to their respective owners.
+- `QIangIQsMMJPlasmaGun` and `QIangIQsMMJRailGun` are split into parts: see [`mods/QIangIQsMMJPlasmaGun`](mods/QIangIQsMMJPlasmaGun) and [`mods/QIangIQsMMJRailGun`](mods/QIangIQsMMJRailGun).
 - New weapons: `QIangIQsStubRifle`, `QIangIQsChainaxe2h`, `QIangIQsChainsword2h`, `QIangIQsDauntlessMaul`. They turn unreleased game weapons into usable ones and have not been tested in game yet, so expect bugs.
 - New crash fixes: `QIangIQsActionLookupFix` (crash on Fatshark servers when weapon mods are loaded) and `QIangIQsAbilityPackagePin` (crash when a grenade or ability package unloads while still in use).
 - New tools: `QIangIQsCoherencyZone` (filled circle showing coherency range), `QIangIQsTrappers` (overlay for Trappers: target, net loaded, firing range), `QIangIQsHitboxView` (shows enemy hit shapes coloured by armour), `QIangIQsPhotoMode`, `QIangIQsTreeZoom`, `QIangIQsCustomTitles` (shows two extra titles in Cosmetics).
