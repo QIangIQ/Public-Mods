@@ -36,6 +36,13 @@ Loose copies of the `.lua` files that changed, under [`hotfix/`](hotfix). Each o
 - The `*Prime`, `QIangIQsEmber` and `QIangIQsEmberWF` mods contain character models and textures converted from other games. They belong to their respective owners and are shared for personal use only.
 
 ## Recently added
+**2026-11-04**
+- New weapons: `QIangIQsStubRifle`, `QIangIQsChainaxe2h`, `QIangIQsChainsword2h`, `QIangIQsDauntlessMaul`. They turn unreleased game weapons into usable ones and have not been tested in game yet, so expect bugs.
+- New crash fixes: `QIangIQsActionLookupFix` (crash on Fatshark servers when weapon mods are loaded) and `QIangIQsAbilityPackagePin` (crash when a grenade or ability package unloads while still in use).
+- New tools: `QIangIQsCoherencyZone` (filled circle showing coherency range), `QIangIQsTrappers` (overlay for Trappers: target, net loaded, firing range), `QIangIQsHitboxView` (shows enemy hit shapes coloured by armour), `QIangIQsPhotoMode`, `QIangIQsTreeZoom`, `QIangIQsCustomTitles` (shows two extra titles in Cosmetics).
+- Updated from the current versions: `QIangIQsAnubis`, `QIangIQsBismuthSword`, `QIangIQsChainLaspistol`, `QIangIQsCrossbow`, `QIangIQsEmber`, `QIangIQsEnemyBeams`, `QIangIQsFlamerPistol`, `QIangIQsInstantCharacterChange`, `QIangIQsJavelin`, `QIangIQsMeltagun`, `QIangIQsOraxia`, `QIangIQsPowerAxe`, `QIangIQsPrototype`, `QIangIQsRearview`, `QIangIQsShardStaff`, `QIangIQsSpecialTracer`, `QIangIQsSpillway`, `QIangIQsSwordShield`, `QIangIQsTalentHeat`, `QIangIQsTwinShields`, `QIangIQsVoicelineSpammer9000`, `QIangIQsWallclimber`. These zips also drop leftover development files.
+
+**Earlier**
 - **The Bell map** (`QIangIQsBell` 0.2.16, Vermintide 2's The Bell): too big for one file, so it is in [`bell/`](bell) as 10 parts plus a join script. See [`bell/README.md`](bell/README.md).
 - `QIangIQsNovitiate`: a Zealot-variant "class" with its own talent tree and abilities (press F8 on a Zealot to mark it as a Novitiate). Needs `realms_loadout` for its gear screen. The optional Sister Lacrima model is not included (too large); the default Dauntless look works without it.
 - `QIangIQsJavelin` (throwing spear) and `QIangIQsSprayerOgryn` (enemy used by The Bell map). `QIangIQsCrossbow`, `QIangIQsFlamerPistol`, `QIangIQsAnotherScoreboard`, `QIangIQsSyncChannel`, `QIangIQsSwordShield` and `QIangIQsPowerAxe` were updated.
