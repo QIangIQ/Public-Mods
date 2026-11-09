@@ -36,6 +36,11 @@ Loose copies of the `.lua` files that changed, under [`hotfix/`](hotfix). Each o
 - The `*Prime`, `QIangIQsEmber` and `QIangIQsEmberWF` mods contain character models and textures converted from other games. They belong to their respective owners and are shared for personal use only.
 
 ## Recently added
+**2026-11-09**
+- New tools: `QIangIQsAntiSpecialist` (counters for Trapper, Poxburster, Pox Hound and Mutant), `QIangIQsAutoQuell` (automatic quelling for Psyker staves, stop percentage per staff, optional Warp Siphon toggle), `QIangIQsBuffExpiryFlash` (flash when an attack buff from an action runs out), `QIangIQsToughnessGauge` (toughness speedometer on the HUD), `QIangIQsRichPresence` (Discord Rich Presence, no DLL needed).
+- New: `QIangIQsAutoplay` 0.2.1. Every module is off by default and the master toggle is off at every start. It only runs in the Psykhanium, in SoloPlay, or in private games where every other player also runs it; public matchmade missions never pass. Not tested in game yet, so expect bugs.
+- Updated: `QIangIQsTrappers` (now with its own Trapper auto-dodge), `QIangIQsFingerGun` 0.1.2, `QIangIQsMMJPistol` 0.1.1, `QIangIQsMMJChainPistol` 0.1.1, `QIangIQsTaunts`, `QIangIQsTalentHeat`, `QIangIQsCoherencyZone`, `QIangIQsBismuthSword`.
+- The Bell: hotfix 7 in [`bell/`](bell) (new VT2 sky and lighting options, host mission setting, a far-horde crash fix, navmesh fix). Run `CUSTOM_ASSETS_PATCH.bat` after extracting it.
 **2026-11-04**
 - New custom weapons: `QIangIQsFingerGun`, the `QIangIQsMMJ*` weapons (Arcade Pistol, Bat, Chain Pistol, Double Barrel, Flame Katana, Ice Katana, Katana, Magic Glove, Minigun, Pistol, Plasma Gun, Rail Gun, Rifle, Shotgun, Silenced Uzi, Sniper, Uzi) and the `QIangIQsBoltgun*` weapons (Bolter, Chainsword, Flamer, Plasma Pistol, Power Sword). `QIangIQsTaunts` adds taunts. `QIangIQsHorizonMaulShields` adds maul and shield skins.
 - These contain art and sound from Mullet Mad Jack, Warhammer 40,000: Boltgun and Horizon Walker. They belong to their respective owners.

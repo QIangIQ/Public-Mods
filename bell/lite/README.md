@@ -4,7 +4,7 @@ Same full-size map, same collision and gameplay, much lighter on VRAM:
 - textures 512 px instead of 1024 px (218 MB down to 56 MB)
 - vertices merged and render meshes simplified within 3 cm (15.5M down to 6.7M triangles; units 1029 MB down to 566 MB)
 
-It is an overlay for an existing QIangIQsBell 0.2.16 install, and includes hotfix 6.
+It is an overlay for an existing QIangIQsBell 0.2.16 install, and includes hotfix 6. After installing it, extract `QIangIQsBell-0.2.16-hotfix7.zip` from the folder above on top (overwrite) and run the patcher again.
 
 **Get it:** download the 5 `QIangIQsBell-lite.zip.00x` files and `JOIN_BELL_LITE.bat` into one folder. Open `QIangIQsBell-lite.zip.001` with 7-Zip or WinRAR, or double-click `JOIN_BELL_LITE.bat` to make `QIangIQsBell-lite.zip`.
 
