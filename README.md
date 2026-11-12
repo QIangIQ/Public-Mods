@@ -36,6 +36,8 @@ Loose copies of the `.lua` files that changed, under [`hotfix/`](hotfix). Each o
 - The `*Prime`, `QIangIQsEmber` and `QIangIQsEmberWF` mods contain character models and textures converted from other games. They belong to their respective owners and are shared for personal use only.
 
 ## Recently added
+**2026-11-12**
+- QIangIQsAntiSpecialist 0.3.2: fixes a possible crash (raycasts no longer run while the physics thread is busy); tuning log now off by default.
 **2026-11-09**
 - New tools: `QIangIQsAntiSpecialist` (counters for Trapper, Poxburster, Pox Hound and Mutant), `QIangIQsAutoQuell` (automatic quelling for Psyker staves, stop percentage per staff, optional Warp Siphon toggle), `QIangIQsBuffExpiryFlash` (flash when an attack buff from an action runs out), `QIangIQsToughnessGauge` (toughness speedometer on the HUD), `QIangIQsRichPresence` (Discord Rich Presence, no DLL needed).
 - New CS2 weapons: `QIangIQsButterflyKnife` 1.8.10, `QIangIQsBayonet`, `QIangIQsStiletto`, `QIangIQsBowieKnife` (Combat Knife, optional Duelling Swords for the Butterfly Knife), `QIangIQsDeagle` and `QIangIQsGlock` (pistols). They need Custom Assets: run `CUSTOM_ASSETS_PATCH.bat` with the game closed after installing. CS2 sounds play through `SimpleAudio` if you have it.
