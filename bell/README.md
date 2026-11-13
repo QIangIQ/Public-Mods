@@ -1,5 +1,7 @@
 # QIangIQsBell 0.2.16 (Vermintide 2's The Bell in Darktide)
 
+**What it does:** Adds a SoloPlay mission set in Vermintide 2's The Bell map.
+
 The map is 898 MB, more than GitHub allows in one file, so it is split into 10 parts.
 
 **Get it:** download all 10 `QIangIQsBell.zip.0xx` files and `JOIN_BELL.bat` into one folder (on GitHub: open each file and press the download button). Then either
