@@ -1,5 +1,7 @@
 # QIangIQsMMJRailGun
 
+**What it does:** Replaces the Helbore Lasgun with Mullet Mad Jack's rail gun, visual only.
+
 This mod is 111 MB, more than GitHub allows in one file, so it is split into 2 parts.
 
 **Get it:** download all 2 `QIangIQsMMJRailGun.zip.0xx` files and `JOIN_QIangIQsMMJRailGun.bat` into one folder. Then either
