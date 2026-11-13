@@ -1,5 +1,7 @@
 # QIangIQsMMJHud
 
+**What it does:** Shrinks the game view into an inner screen with a frame, like Mullet Mad Jack.
+
 This mod is 144 MB, more than GitHub allows in one file, so it is split into 2 parts.
 
 **Get it:** download all 2 `QIangIQsMMJHud.zip.0xx` files and `JOIN_QIangIQsMMJHud.bat` into one folder. Then either
