@@ -36,6 +36,8 @@ Loose copies of the `.lua` files that changed, under [`hotfix/`](hotfix). Each o
 - The `*Prime`, `QIangIQsEmber` and `QIangIQsEmberWF` mods contain character models and textures converted from other games. They belong to their respective owners and are shared for personal use only.
 
 ## Recently added
+**2026-11-13**
+- New: `QIangIQsReviveDance` 0.1.0 (your character dances California Gurls while you revive or free a teammate; only you see it). Needs Custom Assets: run `CUSTOM_ASSETS_PATCH.bat` with the game closed after installing. The dance motion is retargeted from a Helldivers 2 community emote mod.
 **2026-11-12**
 - QIangIQsAntiSpecialist 0.3.2: fixes a possible crash (raycasts no longer run while the physics thread is busy); tuning log now off by default.
 **2026-11-09**
