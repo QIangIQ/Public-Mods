@@ -36,6 +36,8 @@ Loose copies of the `.lua` files that changed, under [`hotfix/`](hotfix). Each o
 - The `*Prime`, `QIangIQsEmber` and `QIangIQsEmberWF` mods contain character models and textures converted from other games. They belong to their respective owners and are shared for personal use only.
 
 ## Recently added
+**2026-11-18**
+- New: `QIangIQsCritGauge` 0.1.0, a companion to `QIangIQsToughnessGauge` with two half dials. The gold dial shows your current crit chance for the weapon in your hands and moves as buffs come and go. The orange dial shows the real chance that your next attack crits after the game's PRD: it drops to its floor on every crit and climbs with each miss. Both read your character's own crit state, so they are exact on Fatshark servers too. `/cgauge_info` prints the numbers.
 **2026-11-13**
 - New: `QIangIQsReviveDance` 0.1.0 (your character dances California Gurls while you revive or free a teammate; only you see it). Needs Custom Assets: run `CUSTOM_ASSETS_PATCH.bat` with the game closed after installing. The dance motion is retargeted from a Helldivers 2 community emote mod.
 **2026-11-12**
