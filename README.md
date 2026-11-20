@@ -1,6 +1,6 @@
 # Public Mods
 
-Darktide mods by QIangIQ. Each mod is a separate zip in [`mods/`](mods).
+Darktide mods by QIangIQ, plus the `Dioscurio-*` mods by Dioscurio. Each mod is a separate zip in [`mods/`](mods).
 
 ## Install
 1. Install the Darktide Mod Framework (DMF) and Darktide Mod Loader.
@@ -36,6 +36,10 @@ Loose copies of the `.lua` files that changed, under [`hotfix/`](hotfix). Each o
 - The `*Prime`, `QIangIQsEmber` and `QIangIQsEmberWF` mods contain character models and textures converted from other games. They belong to their respective owners and are shared for personal use only.
 
 ## Recently added
+**2026-11-20**
+- Dioscurio's mods are now here too, as `Dioscurio-*` zips: `DioProfiler` (per-mod frame profiler), `DiosPotato` (render settings below what the menu allows), `DiosSimplePowah`, `DiosWardrobe` (For the Drip by Adspartan, MIT, with Vox Manifold outfit sharing) and `DiosWardrobeExtra`, `EquipCrashGuard`, `DiosHavocTracker`, `DiosSorter`, `DiosMarkerTool`, `DiosHandholder`, `DiosWarpSickness` and `FoxyJumpscareMod`.
+- `DiosWarpSickness`, `FoxyJumpscareMod` and `DiosHandholder` are **source only**: the art, audio and vendored runtime they use belong to other people and are not redistributed here. Each one carries an `assets/README.txt` or `CREDITS` file saying what is missing and where it came from. They install and run without those files; the missing parts simply do not draw or make a noise.
+
 **2026-11-13**
 - New: `QIangIQsReviveDance` 0.1.0 (your character dances California Gurls while you revive or free a teammate; only you see it). Needs Custom Assets: run `CUSTOM_ASSETS_PATCH.bat` with the game closed after installing. The dance motion is retargeted from a Helldivers 2 community emote mod.
 **2026-11-12**
