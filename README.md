@@ -38,7 +38,8 @@ Loose copies of the `.lua` files that changed, under [`hotfix/`](hotfix). Each o
 ## Recently added
 **2026-11-20**
 - Dioscurio's mods are now here too, as `Dioscurio-*` zips: `DioProfiler` (per-mod frame profiler), `DiosPotato` (render settings below what the menu allows), `DiosSimplePowah`, `DiosWardrobe` (For the Drip by Adspartan, MIT, with Vox Manifold outfit sharing) and `DiosWardrobeExtra`, `EquipCrashGuard`, `DiosHavocTracker`, `DiosSorter`, `DiosMarkerTool`, `DiosHandholder`, `DiosWarpSickness` and `FoxyJumpscareMod`.
-- `DiosWarpSickness`, `FoxyJumpscareMod` and `DiosHandholder` are **source only**: the art, audio and vendored runtime they use belong to other people and are not redistributed here. Each one carries an `assets/README.txt` or `CREDITS` file saying what is missing and where it came from. They install and run without those files; the missing parts simply do not draw or make a noise.
+- Also here: `DiosFixedAura`, `DiosFixedCaptainShield` and `DiosFixedCursedBlade` (Aura, Captain Shield and Cursed Blade by Seph) and `DiosFixedForTheEmperor` (For the Emperor by Seventeen), each with the original author's permission. They register under the original mod ids, so remove the original folder before installing one.
+- `DiosWarpSickness` and `FoxyJumpscareMod` are **source only**: the art and audio they use belong to Supercell, Scott Cawthon and other rights holders, and are not redistributed here. Both carry an `assets/README.txt` saying what is missing and where it came from. They install and run without those files; the missing parts simply do not draw or make a noise.
 
 **2026-11-13**
 - New: `QIangIQsReviveDance` 0.1.0 (your character dances California Gurls while you revive or free a teammate; only you see it). Needs Custom Assets: run `CUSTOM_ASSETS_PATCH.bat` with the game closed after installing. The dance motion is retargeted from a Helldivers 2 community emote mod.
